@@ -17,6 +17,7 @@ interface Props {
 enum InputType {
   EMAIL = 'Email',
   PASSWORD = 'Password',
+  
 }
 
 export class App extends React.Component<Props, State>{
